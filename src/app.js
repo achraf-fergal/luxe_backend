@@ -27,7 +27,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // أثناء التطوير
-      "https://luxe-frontend-gold.vercel.app/"// بعد نشر الـ Frontend
+      "https://luxe-frontend-gold.vercel.app"// بعد نشر الـ Frontend
     ],
     credentials: true,
   })
